@@ -2098,7 +2098,7 @@ do -- Example UI
 	library:FormatWindows()
 end
  
-local Window = library:AddWindow("Bunny X", {
+local Window = library:AddWindow("Kilaware", {
     main_color = Color3.fromRGB(10, 10, 10),
     min_size = Vector2.new(450, 500),
     toggle_key = Enum.KeyCode.RightShift,
@@ -2281,7 +2281,7 @@ CreditTAB:AddButton("Owner Kilaawhy", function(bool)
     })
 end)
  
-CreditTAB:AddButton("KIla is best scripter", function(bool)
+CreditTAB:AddButton("Kila is best scripter", function(bool)
     setclipboard("Kilaware")
     wait(1)
     local function callback(text)
